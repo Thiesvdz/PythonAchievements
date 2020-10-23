@@ -4,9 +4,12 @@ random.shuffle(people)
 
 for x in people:
   if x == "Waldo":
-     break
 
-cijfer = people.index("Waldo")
+    cijfer = people.index(x)
+    break
+
+
+
 
 print("Waldo zit op nummer:", cijfer + 1)
 
