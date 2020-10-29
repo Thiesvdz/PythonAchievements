@@ -8,9 +8,6 @@ for x in people:
     cijfer = people.index(x)
     break
 
-
-
-
 print("Waldo zit op nummer:", cijfer + 1)
 
 print(people)
